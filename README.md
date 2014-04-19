@@ -1,4 +1,4 @@
 yahoo-weather
 =============
 
-Prueba de obtención de datos climaticos con el API RSS de Yahoo
+Prueba de obtención de datos climaticos con el API RSS de Yahoo con JQUERY y PHP
