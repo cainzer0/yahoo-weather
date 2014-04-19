@@ -1,0 +1,252 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-f7t6ho');
+	src:url('fonts/icomoon.eot?#iefix-f7t6ho') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-f7t6ho') format('woff'),
+		url('fonts/icomoon.ttf?-f7t6ho') format('truetype'),
+		url('fonts/icomoon.svg?-f7t6ho#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-weather3200:before {
+	content: "\e600";
+}
+.icon-weather47:before {
+	content: "\e601";
+}
+.icon-weather46:before {
+	content: "\e602";
+}
+.icon-weather45:before {
+	content: "\e603";
+}
+.icon-weather44:before {
+	content: "\e604";
+}
+.icon-weather43:before {
+	content: "\e605";
+}
+.icon-weather42:before {
+	content: "\e606";
+}
+.icon-weather41:before {
+	content: "\e607";
+}
+.icon-weather40:before {
+	content: "\e608";
+}
+.icon-weather39:before {
+	content: "\e609";
+}
+.icon-weather38:before {
+	content: "\e60a";
+}
+.icon-weather37:before {
+	content: "\e60b";
+}
+.icon-weather36:before {
+	content: "\e60c";
+}
+.icon-weather35:before {
+	content: "\e60d";
+}
+.icon-weather34:before {
+	content: "\e60e";
+}
+.icon-weather33:before {
+	content: "\e60f";
+}
+.icon-weather32:before {
+	content: "\e610";
+}
+.icon-weather31:before {
+	content: "\e611";
+}
+.icon-weather30:before {
+	content: "\e612";
+}
+.icon-weather29:before {
+	content: "\e613";
+}
+.icon-weather28:before {
+	content: "\e614";
+}
+.icon-weather27:before {
+	content: "\e615";
+}
+.icon-weather26:before {
+	content: "\e616";
+}
+.icon-weather25:before {
+	content: "\e617";
+}
+.icon-weather24:before {
+	content: "\e618";
+}
+.icon-weather23:before {
+	content: "\e618";
+}
+.icon-weather22:before {
+	content: "\e61a";
+}
+.icon-weather21:before {
+	content: "\e61b";
+}
+.icon-weather20:before {
+	content: "\e61c";
+}
+.icon-weather19:before {
+	content: "\e61d";
+}
+.icon-weather18:before {
+	content: "\e61e";
+}
+.icon-weather17:before {
+	content: "\e61f";
+}
+.icon-weather16:before {
+	content: "\e620";
+}
+.icon-weather15:before {
+	content: "\e621";
+}
+.icon-weather14:before {
+	content: "\e622";
+}
+.icon-weather13:before {
+	content: "\e623";
+}
+.icon-weather12:before {
+	content: "\e624";
+}
+.icon-weather11:before {
+	content: "\e625";
+}
+.icon-weather10:before {
+	content: "\e626";
+}
+.icon-weather9:before {
+	content: "\e627";
+}
+.icon-weather8:before {
+	content: "\e628";
+}
+.icon-weather7:before {
+	content: "\e629";
+}
+.icon-weather6:before {
+	content: "\e62a";
+}
+.icon-weather5:before {
+	content: "\e62b";
+}
+.icon-weather4:before {
+	content: "\e62c";
+}
+.icon-weather3:before {
+	content: "\e62d";
+}
+.icon-weather2:before {
+	content: "\e62e";
+}
+.icon-weather1:before {
+	content: "\e62f";
+}
+.icon-weather0:before {
+	content: "\e630";
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+select{
+text-transform: capitalize;
+}
+h1{
+color: #BE6419;
+font-size: 30px;
+margin: 5px 0px 10px 0px;
+}
+#weather{
+width: 1025px;
+margin:0px auto;
+border:#ccc solid 1px;
+padding:20px;
+}
+#now{
+border:#ccc solid 1px;
+padding:10px 20px;
+margin-bottom: 20px;
+width: 220px;
+margin: 20px auto;
+text-align: center;
+color: #989898;
+}
+#date, #humidity, #visibility , #wind, #status{
+border-top: #ccc solid 1px;
+padding:3px 0px;
+font-size: 14px;
+}
+#humidity span:after{
+content: "%";
+}
+#now .g{
+font-size: 70px;
+color: #BE6419;
+}
+#now .d{
+font-size: 12px;
+color: #898989;
+}
+#grade:after{
+content: " º";
+}
+.days{
+display: inline-block;
+margin-right: 10px;
+text-align: center;
+width: 134px;
+}
+.days:last-child{
+margin-right: 0px;
+}
+.days h3{
+background: #BE6419;
+color: #fff;
+font-size: 14px;
+font-weight: normal;
+margin: 0px;
+padding: 5px 10px;
+}
+.days .i{
+color: #BE6419;
+font-size: 48px;
+height: 85px;
+line-height: 85px;
+}
+.days .g span{
+background: #EDEBE4;
+color: #898989;
+display: inline-block;
+font-size: 12px;
+padding: 10px 0px;
+width: 66px;
+}
+.days .g span:after{
+content: " º";
+}
+.days .g span.max{
+background: #F6F4F1;
+margin-left: 2px;
+}

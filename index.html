@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Weather Yahoo - Jquery - PHP</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="weather.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+		<script src="weather.js"></script>
+	</head>
+	<body>
+		<section id="weather">
+			<select id="view_weather"></select>
+			<select id="type">
+				<option value="c" selected="selected">C º</option>
+				<option value="f">F º</option>
+			</select>
+			<h1>Clima en <span></span></h1>
+			<div id="now">
+				<div class="g">
+					<span id="grade">0</span>
+					<span id="icon" class="icon-weather3200"></span>
+				</div>
+				<div id="status"></div>
+				<div id="date"></div>
+				<div id="humidity">Humedad : <span></span></div>
+				<div id="wind">Viento : <span></span></div>
+				<div id="visibility">Visibilidad : <span></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 1</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 2</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 3</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 4</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 5</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 6</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+			<div class="days">
+				<h3>Day 7</h3>
+				<div class="i">
+					<span class="icon-weather3200"></span>
+				</div>
+				<div class="g"><span class="min"></span><span class="max"></span></div>
+			</div>
+		</section>
+	</body>
+</html>
